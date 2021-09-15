@@ -50,7 +50,7 @@ body{
 .movieContainer .movieDrop{
     border:0;
     outline-width: 0;
-    /* background-color:var(--color-two); */
+   
     height:5vh;
     margin:20px;
     width:20vw;
@@ -101,11 +101,16 @@ li{
     height:90px;
     width:100%;
     
-    background-color: black;
+    background-color:white;
     margin:15px 0;
     transform:rotateX(-45deg);
-    box-shadow:0 10px 20px rgba(0, 0, 0, 0.75);
+    box-shadow:0 5px 20px rgba(0, 0, 0, 0.75);
 }
 
+@media(min-width:350px){
+    .movieContainer .movieDrop{
+        width:300px;
+    }
+}
 
 
