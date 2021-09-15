@@ -5,8 +5,6 @@ const total=document.querySelector("#total")
 const selectSeats=document.querySelectorAll(".container-main .seat:not(.occupied");
 const container=document.querySelector(".container-main")
 
-
-
 var ticketPrice=+selectMovie.value;
 // toggle over with class named selected when user clicks on seat as selected and color
 // its adds class name selected on click seats
